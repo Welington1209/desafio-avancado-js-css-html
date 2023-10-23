@@ -1,0 +1,89 @@
+.container {
+    background-image: url(../images/bg-repeat.jpg);
+    min-height: 100vh;
+    min-width: 100vh;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+
+.container .texto {
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.container .texto .titulo {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.container .formulario {
+    background-color: aliceblue;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 40vh;
+    height: 378px;
+}
+
+.container .formulario .input {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.container .formulario .paragrafo {
+    font-weight: 400;
+    font-size: .8rem;
+    display: none;
+}
+
+.container .formulario .mensagem {
+    min-height: 100px;
+}
+
+.container .formulario .button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #fff;
+    background-color: #3CCC87;
+    border: 1px solid #00C22B
+}
+
+.container .formulario .button:hover  {
+    background-color: #66fab2;
+}
+
+.container .formulario .campos-obrigatorios {
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: flex;
+}
+
+.container .formulario .validacao-de-campo {
+    display: block;
+    color: red;
+}
+
+.input-recusado {
+   border: 1px solid #F52E2E;
+}
+
+.input-aprovado {
+    border: 1px solid #00C22B;
+ }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio HTML, CSS e JS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,700;0,800;0,900;1,500&family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src="src/js/index.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="texto">
+        <div class="titulo">
+          <h3>ficou com dúvida?</h3>
+          <h3>nos mande uma mensagem!</h3>
+        </div>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+      <form id="form" class="formulario">
+        <input
+          class="input"
+          type="text"
+          name="nome"
+          id="nome"
+          placeholder="Nome completo *"
+        />
+        <p class="paragrafo">campo obrigatório</p>
+
+        <input
+          class="input"
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Email *"
+        />
+        <p class="paragrafo">campo obrigatório</p>
+
+        <input
+          class="input"
+          type="number"
+          name="telefone"
+          id="telefone"
+          placeholder="Telefone *"
+        />
+        <p class="paragrafo">campo obrigatório</p>
+
+        <input
+          class="mensagem input"
+          type="text"
+          name="mensagem"
+          id="mensagem"
+          placeholder="Mensagem"
+        />
+        <p class="paragrafo">campo obrigatório</p>
+
+        <p class="campos-obrigatorios">Campos obrigatórios *</p>
+
+        <input id="enviar" type="submit" name="enviar" class="button" />
+      </form>
+    </main>
+  </body>
+</html>
